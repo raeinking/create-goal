@@ -21,7 +21,8 @@ body {
     outline:none;
     text-align: center;
     transition: 2s;
-    
+    box-shadow: 1px 2px 2px 1px;
+
 }
 
 h3 {
@@ -32,24 +33,22 @@ h3 {
 }
 .but{
     width:19px;
+    height:19px;
     position: absolute;
     top:10%;
     left:50%;
     transform:translate(450%,-50%);
-    color:rgb(0, 0, 0);
+    background-color: white;
     border: 1px solid;
 }
 
 .sub{
-    display: flex;
-    position: absolute;
-    height: 20px;
-    width:20px;
+    display:flex;
+    height: 16px;
+    width:17px;
     align-items: center;
     justify-content: center;
-    top:10%;
-    left:50%;
-    transform:translate(425%,-50%);
+
 }
 
 .goal:hover{
@@ -64,17 +63,19 @@ h3 {
 
 
 .line1{
-    position: absolute;
+    align-items: center;
     background-color: black;
     width: 2px;
     height: 12px;
+    position: fixed;
 }
 
 .line2{
-    position: absolute;
     background-color: black;
     width:13px;
     height: 2px;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -89,6 +90,7 @@ h3 {
     text-align: center;
     background-color: white;
     border: 1px solid;
-    border-radius: 25px;
+    border-radius: 5px;
     font-stretch: semi-expanded;
+    box-shadow: 1px 2px 2px 1px;
 }
